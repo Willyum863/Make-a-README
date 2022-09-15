@@ -32,6 +32,26 @@ const questions = [
     },
     {
         type: "input",
+        name: "features",
+        message: "List your projects features"
+    },
+    {
+        type: "input",
+        name: "contribute",
+        message: "How can others contribute?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "What tests can be run and how?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "what is your email?"
+    },
+    {
+        type: "input",
         name: "github",
         message: "what is your github username?"
     },
